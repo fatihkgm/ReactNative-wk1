@@ -11,24 +11,39 @@ export const styles = StyleSheet.create({
     },
     textStyle:{
         fontSize:30,
-        color:'#fff',
+        color:'red',
         textAlign:'center'
     },
     header: {
-        flex:2,
+        flex:3,
         backgroundColor:'black',
         alignContent:'center',
         justifyContent:'center'
     },
     main: {
+        flexDirection:'row',
         backgroundColor:'yellow',
-        flex:5,
+        flex:6,
+        alignContent:'center',
+        justifyContent:'center'
+    },
+    side: {
+      
+        backgroundColor:'green',
+        flex:1,
+        alignContent:'center',
+        justifyContent:'center'
+    },
+    content: {
+       
+        backgroundColor:'yellow',
+        flex:3,
         alignContent:'center',
         justifyContent:'center'
     },
     footer: {
         backgroundColor:'blue',
-        flex:5,
+        flex:3,
         alignContent:'center',
         justifyContent:'center'
     },
